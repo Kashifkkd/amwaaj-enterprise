@@ -5,6 +5,7 @@ import MojoLogo from "../../public/img/brands/mojo-logo.png";
 import ThumsupLogo from "../../public/img/brands/thumsup-logo.png";
 import BigColaLogo from "../../public/img/brands/big-cola.png";
 import ShahyadriLogo from "../../public/img/brands/shahyadri-logo.png";
+import CampaLogo from "../../public/img/brands/campa-logo.png";
 import { Button } from "@headlessui/react";
 
 export const Hero = () => {
@@ -88,10 +89,18 @@ export const Hero = () => {
               loading="lazy"
               placeholder="blur"
             />
+            <Image
+              src={CampaLogo}
+              width="150"
+              height="300"
+              className={"object-contain"}
+              alt="Hero Illustration"
+              loading="lazy"
+              placeholder="blur"
+            />
           </div>
         </div>
       </Container>
     </>
   );
 };
-
